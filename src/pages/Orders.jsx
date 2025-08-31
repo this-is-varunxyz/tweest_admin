@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import axios from 'axios'
-import { backendUrl, currency } from '../App'
+import { backendUrl, currency, formatPrice } from '../App'
 import { toast } from 'react-toastify'
 
 const Orders = ({ token }) => {
@@ -214,7 +214,7 @@ const Orders = ({ token }) => {
                 <div className='space-y-4'>
                   <div>
                     <h4 className='font-medium text-dark-900 mb-2'>Total Amount</h4>
-                    <p className='text-2xl font-bold text-roviks-600'>{currency}{order.amount}</p>
+                    <p className='text-2xl font-bold text-roviks-600'>{formatPrice(order.amount)}</p>
                   </div>
                   
                   <div>

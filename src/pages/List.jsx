@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { backendUrl, currency } from '../App'
+import { backendUrl, currency, formatPrice } from '../App'
 import { toast } from 'react-toastify'
 
 const List = ({ token }) => {
@@ -182,7 +182,7 @@ const List = ({ token }) => {
                       <span className='text-sm text-dark-600'>{item.subCategory}</span>
                     </td>
                     <td className='table-cell'>
-                      <span className='font-semibold text-roviks-600'>{currency}{item.price}</span>
+                      <span className='font-semibold text-roviks-600'>{formatPrice(item.price)}</span>
                     </td>
                     <td className='table-cell'>
                       {item.bestseller ? (
