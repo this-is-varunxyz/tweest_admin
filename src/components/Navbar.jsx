@@ -9,10 +9,10 @@ const Navbar = ({setToken}) => {
           {/* Brand */}
           <div className='flex items-center space-x-2 sm:space-x-3'>
             <div className='w-8 h-8 sm:w-10 sm:h-10 bg-black rounded-lg flex items-center justify-center'>
-              <span className='text-white font-display font-bold text-lg sm:text-xl'>R</span>
+              <span className='text-white font-display font-bold text-lg sm:text-xl'>T</span>
             </div>
             <div>
-              <span className='text-lg sm:text-xl font-display font-bold text-black'>Roviks</span>
+              <span className='text-lg sm:text-xl font-display font-bold text-black'>Tweest</span>
               <span className='block text-xs sm:text-sm text-gray-500 font-medium'>Admin Panel</span>
             </div>
           </div>

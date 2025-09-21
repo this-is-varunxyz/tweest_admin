@@ -31,9 +31,9 @@ const Login = ({setToken}) => {
         <div className='text-center mb-6 sm:mb-8'>
           <div className='flex items-center justify-center space-x-2 sm:space-x-3 mb-4 sm:mb-6'>
             <div className='w-12 h-12 sm:w-16 sm:h-16 bg-black rounded-xl sm:rounded-2xl flex items-center justify-center'>
-              <span className='text-white font-display font-bold text-2xl sm:text-3xl'>R</span>
+              <span className='text-white font-display font-bold text-2xl sm:text-3xl'>T</span>
             </div>
-            <span className='text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-black'>Roviks</span>
+            <span className='text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-black'>Tweest</span>
           </div>
           <h1 className='text-2xl sm:text-3xl font-bold text-black mb-2'>Admin Panel</h1>
           <p className='text-gray-600 text-sm sm:text-base'>
@@ -51,7 +51,7 @@ const Login = ({setToken}) => {
                 value={email} 
                 className='input-field' 
                 type="email" 
-                placeholder='admin@roviks.com' 
+                placeholder='admin@Tweest.com' 
                 required 
               />
             </div>
